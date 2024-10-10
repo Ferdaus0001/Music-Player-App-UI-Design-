@@ -15,6 +15,7 @@ void main(){
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Class_Musics_Ui(),
     );
   }
